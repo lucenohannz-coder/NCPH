@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCPH Fun Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.6em;
+            margin: 15px 0;
+        }
+
+        .highlight {
+            color: #ffeb3b;
+            font-weight: bold;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 0.9em;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🎉 Welcome! 🎉</h1>
+
+    <p class="highlight">[NCPH]</p>
+    <p>[195 sisiwww]</p>
+    <p>[saan yung tama??]</p>
+    <p class="highlight">👉 [SA LEEG!!!!] 👈</p>
+
+    <footer>
+        Thanks for visiting! 😄
+    </footer>
+</div>
+
+</body>
+</html>
